@@ -12,7 +12,7 @@
 brew install git
 brew install nvm
 brew install nginx
-brew install yarn --without-node
+brew install yarn --ignore-dependencies
 
 brew cask install iterm2
 brew cask install charles
