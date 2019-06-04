@@ -21,7 +21,7 @@
 {
   "editor.fontSize": 18,
   "editor.fontFamily": "Monaco",
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.wordSeparators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
   "editor.wordWrap": "on",
   "emmet.triggerExpansionOnTab": true,

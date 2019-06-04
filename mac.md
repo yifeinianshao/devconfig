@@ -32,6 +32,11 @@ brew cask install mplayerx
 .zshrc文件配置
 ```
 ZSH_THEME="steeef"
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 # vscode
 alias vsc='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'

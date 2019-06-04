@@ -4,6 +4,7 @@
 	name = 张威
 	email = 294341493@qq.com
 [alias]
+	ac = commit -am
 	ad = add .
 	br = branch
 	brd = branch -d
