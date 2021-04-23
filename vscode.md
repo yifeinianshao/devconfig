@@ -1,22 +1,25 @@
 ##### Package
+
 ```json
 [
   "Auto Close Tag",
   "Auto Rename Tag",
   "Bracket Pair Colorizer",
+  "Chinese (Simplified) Language Pack for Visual Studio Code",
   "EditorConfig for VS Code",
+  "ESLint",
   "Git History",
   "GitLens — Git supercharged",
-  "language-stylus",
   "Path Intellisense",
+  "Prettier - Code formatter",
   "Vetur",
-  "vscode wxml",
   "vscode-fileheader",
   "vscode-icons"
 ]
 ```
 
 ##### Settings
+
 ```json
 {
   "editor.fontSize": 18,
@@ -45,17 +48,12 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.enableSmartCommit": true,
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
   "path-intellisense.mappings": {
-    "src": "${workspaceRoot}/src",
-    "@": "${workspaceRoot}/src",
-    "styl": "${workspaceRoot}/src/assets/stylus",
-    "img": "${workspaceRoot}/src/assets/images"
+    "@": "${workspaceRoot}/src"
   },
-  "workbench.statusBar.feedback.visible": false,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": true
 }
 ```

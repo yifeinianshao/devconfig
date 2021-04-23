@@ -1,4 +1,5 @@
-##### .gitconfig文件中配置
+##### .gitconfig 文件中配置
+
 ```
 [user]
 	name = 张威
@@ -37,18 +38,21 @@
 	st = status
 ```
 
-##### 检查是否已经存在SSH Key
-> 通常SSH Key会默认生成在/Users/username/.ssh目录下，查看此目录下是否存在.ssh 文件夹及相关目录
+##### 检查是否已经存在 SSH Key
 
-##### 生成Key
+> 通常 SSH Key 会默认生成在/Users/username/.ssh 目录下，查看此目录下是否存在.ssh 文件夹及相关目录
+
+##### 生成 Key
+
 1. 在控制台输入: ssh-keygen -t rsa
-2. 一路回车，完成后，私钥放在~/.ssh/id_rsa文件，公钥放在~/.ssh/id_rsa.pub文件
-3. 复制公钥，关联到Github/Gitlab即可
+2. 一路回车，完成后，私钥放在~/.ssh/id_rsa 文件，公钥放在~/.ssh/id_rsa.pub 文件
+3. 复制公钥，关联到 Github/Gitlab 即可
 
-##### Gitlab问题
-* Gitlab报错:
+##### Gitlab 问题
+
+- Gitlab 报错:
   Unable to negotiate with xxx.xx.xxx.x port 22: no matching host key type found. Their offer: ssh-dss
-* 解决方法:
-  在~/.ssh目录下创建config文件 touch config && vi config
+- 解决方法:
+  在~/.ssh 目录下创建 config 文件 touch config && vi config
   Host git.xxxxxxx.com
-    HostKeyAlgorithms ssh-dss
+  HostKeyAlgorithms ssh-dss

@@ -1,12 +1,11 @@
 ##### Terminal
+
 ```json
-[
-  "homebrew",
-  "on my zsh"
-]
+["homebrew", "on my zsh"]
 ```
 
 ##### Homebrew
+
 ```bash
 #!/bin/sh
 brew install git
@@ -16,20 +15,22 @@ brew install yarn --ignore-dependencies
 
 brew cask install iterm2
 brew cask install charles
-brew cask install qqmusic
 brew cask install the-unarchiver
-brew cask install qq
-brew cask install wechat
-brew cask install thunder
+brew cask install mplayerx
 brew cask install google-chrome
 brew cask install visual-studio-code
-brew cask install wechatwebdevtools
 brew cask install switchhosts
-brew cask install mplayerx
+brew cask install wechatwebdevtools
+brew cask install thunder
+brew cask install wechat
+brew cask install qq
+brew cask install qqmusic
 ```
 
 ##### oh my Zsh
-.zshrc文件配置
+
+.zshrc 文件配置
+
 ```
 ZSH_THEME="steeef"
 plugins=(
